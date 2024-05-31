@@ -14,6 +14,7 @@ const Header = () => {
                     <p>We are a family owned Mediterraneran retaurant, focused on trditional recipies served with a modern twist.</p>
                     <Link to="/booking"><button aria-label='On Click'>Reserve Table</button></Link>
                 </div>
+                {/* Banner Image */}
                 <div className='hero-banner-img'>
                     <img src={heroImg} alt='Hero' />
                 </div>
